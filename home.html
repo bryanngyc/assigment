@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Home</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <h1 class="logo">SNEAKERHEAD</h1>
+        <header>
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+            <nav class="nav-bar">
+                <ul>
+                    <li>
+                        <a href="aboutus.html">About us</a>
+                    </li>
+                    <li>
+                        <a href="products.html">Products</a>
+                    </li>
+                    <li>
+                        <a href="timetable.html">Timetable</a>
+                    </li>
+                    <li>
+                        <a href="sales.html">Sales</a>
+                    </li>
+                    <li>
+                        <a href="aa.html">Authenticity&nbsp;Assurance</a>
+                    </li>
+                    <li>
+                        <a href="syo.html">Sell Your Own</a>
+                    </li>
+                    <li>
+                        <a href="delivery.html">Delivery</a>
+                    </li>
+                    <li>
+                        <a href="membership.html">Membership</a>
+                    </li>
+                    <li>
+                        <a href="accesory.html">Accesory</a>
+                    </li>
+                    <li>
+                        <a href="payment.html">Payment</a>
+                    </li>
+                    <li>
+                        <a href="sizechart.html">Size Chart</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="directory">Home</div>
+
+            <a href="payment.html" class="push">
+                <div class="cart">
+                    <img src="cart.png" alt="cart" class="icon">
+                    <p class="cartNumber">0</p>
+                </div>
+            </a>
+            
+            <a href="membership.html" class="head-right"><img src="user.png" alt="user" class="icon"></a>
+
+        </header>
+
+        <script>
+            hamburger = document.querySelector(".hamburger");
+            hamburger.onclick = function() {
+                navBar = document.querySelector(".nav-bar")
+                navBar.classList.toggle("active");
+            }
+        </script>
+
+        <main>
+            <img src="1.webp" alt="shoes" class="banner" />
+
+            <div class="container">
+
+                <h1 class="title">Our Products</h1>
+
+                <div class="products-container">
+
+                    <div class="product">
+                        <img src="1.webp" alt="product 1" />
+                        <h3>product 1</h3>
+                        <div class="price">RM0.00</div>
+                        <button class="add-cart">Add to cart</button>
+                    </div>
+    
+                    <div class="product">
+                        <img src="2.webp" alt="product 2" />
+                        <h3>product 2</h3>
+                        <div class="price">RM0.00</div>
+                        <button class="add-cart">Add to cart</button>
+                    </div>
+    
+                    <div class="product">
+                        <img src="3.webp" alt="product 3" />
+                        <h3>product 3</h3>
+                        <div class="price">RM0.00</div>
+                        <button class="add-cart">Add to cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="slider">
+                <div class="slides">
+                    <input type="radio" name="radio-btn" id="radio1" />
+                    <input type="radio" name="radio-btn" id="radio2" />
+                    <input type="radio" name="radio-btn" id="radio3" />
+
+                    <div class="slide first">
+                        <img src="1.webp" alt="slide1">
+                    </div>
+                    <div class="slide">
+                        <img src="2.webp" alt="slide2">
+                    </div>
+                    <div class="slide">
+                        <img src="3.webp" alt="slide3">
+                    </div>
+                </div>
+
+                <div class="navigation-manual">
+                    <label for="radio1" class="manual-btn"></label>
+                    <label for="radio2" class="manual-btn"></label>
+                    <label for="radio3" class="manual-btn"></label>
+                </div>
+            </div>
+
+        </main>
+
+        <footer>
+            <div class="footer-container">
+                <div class="footer">
+                    <h3>Store</h3>
+                    <ul>
+                        <li>&copy;&nbsp;2023&nbsp;SNEAKERHEAD</li><br>
+                        <li>Email: hello@hypevault.co</li><br>
+                        <li>Phone Number: +60364113523</li><br>
+                        <li>Whatsapp Number: +60162390405</li><br>
+                        <li>Address: A1-1-2, Publika, No 1, Jalan Dutamas 1, 50480 Kuala Lumpur, Malaysia</li>
+                    </ul>
+                </div>
+
+                <div class="footer">
+                    <h3>Info</h3>
+                    <ul>
+                        <li>Store Location</li>
+                        <li>Hype Vault App</li>
+                        <li>Sale</li>
+                        <li>Home</li>
+                        <li>FAQ</li>
+                        <li>Atome FAQ</li>
+                        <li>All Products</li>
+                        <li>Authenticity</li>
+                        <li>Assurance</li>
+                        <li>Personal Shopper</li>
+                        <li>Sell to us</li>
+                        <li>Orders & Shipping</li>
+                        <li>Terms of Service</li>
+                        <li>Privacy Policy</li>
+                        <li>Return & Refund Policy</li>
+                        <li>Size Chart</li>
+                        <li>Become a Vault VIP</li>
+                        <li>Raya Sale T&C</li>
+                    </ul>
+                </div>
+
+                <div class="footer">
+                    <h3>Subscribe</h3>
+                    <p>Retail drops, giveaways, VIP accesses, private sales, events. Subscribe to get automated alerts.</p><br>
+                    <input type="email" placeholder="Enter your email" />
+                    <input type="button" value="OK" />
+                </div>
+            </div>
+        </footer>
+        <script src="cart.js"></script>
+    </body>
+</html>

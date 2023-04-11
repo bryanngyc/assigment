@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Home</title>
+        <link rel="stylesheet" href="test.css" />
+    </head>
+    <body>
+        <h1 class="logo">SNEAKERHEAD</h1>
+        <header>
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+            <nav class="nav-bar">
+                <ul>
+                    <li>
+                        <a href="aboutus.html">About us</a>
+                    </li>
+                    <li>
+                        <a href="products.html">Products</a>
+                    </li>
+                    <li>
+                        <a href="timetable.html">Timetable</a>
+                    </li>
+                    <li>
+                        <a href="sales.html">Sales</a>
+                    </li>
+                    <li>
+                        <a href="aa.html">Authenticity Assurance</a>
+                    </li>
+                    <li>
+                        <a href="syo.html">Sell Your Own</a>
+                    </li>
+                    <li>
+                        <a href="delivery.html">Delivery</a>
+                    </li>
+                    <li>
+                        <a href="membership.html">Membership</a>
+                    </li>
+                    <li>
+                        <a href="accesory.html">Accesory</a>
+                    </li>
+                    <li>
+                        <a href="payment.html">Payment</a>
+                    </li>
+                    <li>
+                        <a href="sizechart.html">Size Chart</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="directory">Home</div>
+        </header>
+        <script>
+            hamburger = document.querySelector(".hamburger");
+            hamburger.onclick = function() {
+                navBar = document.querySelector(".nav-bar")
+                navBar.classList.toggle("active");
+            }
+        </script>
+
+        <main>
+            <img src="2.webp" alt="shoes" class="banner" />
+
+            <div class="container">
+
+                <h3 class="title">Our Product</h3>
+
+                <div class="products-container">
+
+                    <div class="product" data-name="p-1">
+                        <img src="2.png" alt="product 1" />
+                        <h3>product 1</h3>
+                        <div class="price">RM0.00</div>
+                    </div>
+    
+                    <div class="product" data-name="p-2">
+                        <img src="3.webp" alt="product 2" />
+                        <h3>product 2</h3>
+                        <div class="price">RM0.00</div>
+                    </div>
+    
+                    <div class="product" data-name="p-3">
+                        <img src="4.webp" alt="product 3" />
+                        <h3>product 3</h3>
+                        <div class="price">RM0.00</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="slider">
+                <div class="slides">
+                    <input type="radio" name="radio-btn" id="radio1" />
+                    <input type="radio" name="radio-btn" id="radio2" />
+                    <input type="radio" name="radio-btn" id="radio3" />
+
+                    <div class="slide first">
+                        <img src="4.webp" alt="slide1">
+                    </div>
+                    <div class="slide">
+                        <img src="2.webp" alt="slide2">
+                    </div>
+                    <div class="slide">
+                        <img src="3.webp" alt="slide3">
+                    </div>
+                </div>
+
+                <div class="navigation-manual">
+                    <label for="radio1" class="manual-btn"></label>
+                    <label for="radio2" class="manual-btn"></label>
+                    <label for="radio3" class="manual-btn"></label>
+                </div>
+            </div>
+        </main>
+
+        <div class="footer-clean">
+          <footer>
+              <div class="footer-container">
+                  <div class="row justify-content-center">
+                      <div class="col-sm-4 col-md-3 item">
+                          <h3>Services</h3>
+                          <ul>
+                              <li><a href="#">Web design</a></li>
+                              <li><a href="#">Development</a></li>
+                              <li><a href="#">Hosting</a></li>
+                          </ul>
+                      </div>
+                      <div class="col-sm-4 col-md-3 item">
+                          <h3>About</h3>
+                          <ul>
+                              <li><a href="#">Company</a></li>
+                              <li><a href="#">Team</a></li>
+                              <li><a href="#">Legacy</a></li>
+                          </ul>
+                      </div>
+                      <div class="col-sm-4 col-md-3 item">
+                          <h3>Careers</h3>
+                          <ul>
+                              <li><a href="#">Job openings</a></li>
+                              <li><a href="#">Employee success</a></li>
+                              <li><a href="#">Benefits</a></li>
+                          </ul>
+                      </div>
+                      <div class="col-lg-3 item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a>
+                          <p class="copyright">Company Name © 2018</p>
+                      </div>
+                  </div>
+              </div>
+          </footer>
+      </div>
+    </body>
+</html>
