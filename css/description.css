@@ -1,0 +1,27 @@
+.description {
+    display: block;
+    margin: 100px 25% 150px 25%;
+}
+
+.description h1 {
+    text-align: left;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.description p {
+    text-align: left;
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.description img {
+    width: 100%;
+    height: auto;
+}
+
+@media only screen and (max-width: 600px) {
+    .description {
+        margin: 100px 10px 150px 10px;
+    }
+}
